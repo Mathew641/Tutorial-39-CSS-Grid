@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial-39 CSS Grid</title>
+    <meta name="description" content="This Tutorial teach us another way to create Grid">
+    <meta name="keywords" content="HTML, CSS, JS, NodeJS, React">
+    <meta name="robot" content="INDEX, FOLLOW">
+
+    <link rel="stylesheet" href="./grid2.css">
+    <link rel="shortcut icon" href="./grid.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- 
+        We can also create grid using property "Grid-template-area" in which we can create number of columns and no. of rows using some name and then assign those names to grid items whichever we want to place at a particular location.
+        
+        grid-template-area -> This property is used inside 
+                              parent container.
+
+        grid-area -> This property is used insde the grid-items.
+     -->
+    
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="boxes" id="box-1" style="background-color: bisque;">Box-1
+            <h1>Navigation Bar</h1>
+            </div>
+            <div class="boxes" id="box-2" style="background-color: cadetblue;">Box-2
+                <h1>Main-Content</h1></div>
+            <div class="boxes" id="box-3" style="background-color: chocolate;">Box-3
+                <h1>Footer</h1></div>
+            <div class="boxes" id="box-4" style="background-color: rgb(210, 30, 165);">Box-4
+                <h1>Side-Bar</h1></div>
+            <div class="boxes" id="box-5" style="background-color: rgb(30, 210, 30);">Box-5
+                </div>
+        </div>
+    </div>
+
+    <!-- <script src="./grid2.js"></script> -->
+</body>
+</html>
